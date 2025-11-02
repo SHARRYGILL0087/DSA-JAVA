@@ -9,6 +9,11 @@ public class Basics {
         System.out.print("Enter size : ");
         int n = sc.nextInt();
         int[] arr = new int[n];
+        String[] sarr = {"Shamsher","Nonu","Sher","Sharry"};
+        for(int i = 0;i<sarr.length;i++){
+            System.out.print(sarr[i]+" ");
+        }
+        System.out.println();
 //        System.out.println(brr[3]);
 //        brr[3] = 33; // Arr is Mutable
 //        System.out.println(brr[3]);
