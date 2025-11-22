@@ -28,7 +28,7 @@ public class SelectionSort {
                     minIdx = j;
                 }
             }
-            if(minIdx!=i){
+            if(minIdx!=i){ // if -> Swap occur
                 int temp = arr[minIdx];
                 arr[minIdx] = arr[i];
                 arr[i] = temp;
