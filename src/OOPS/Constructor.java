@@ -26,5 +26,7 @@ public class Constructor {
     public static void main(String[] args) {
         Car c = new Car(5,"Kia",3.99);
         c.print();
+        Car c2 = new Car(6,"Balenoo",5.33);
+        c2.print();
     }
 }
